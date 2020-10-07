@@ -1,5 +1,6 @@
 resource "aws_security_group" "evaluacion1" {
     name = "evaluacion1"
+    vpc_id  =  "vpc-04ad5379"
     ingress {
         description = "abre todos los puertos de salida"
         from_port   = 0
